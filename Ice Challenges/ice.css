@@ -1,0 +1,15 @@
+/*Header Styles*/
+body{
+    text-align: center;
+    background-color: pink;
+    margin: 0 auto;
+}
+footer{
+    color:black
+    font:bold;
+    margin-bottom: 4%;
+}
+.white{
+    color:white;
+    font-size: 20pt;
+}
