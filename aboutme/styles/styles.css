@@ -7,6 +7,7 @@ nav {
     background-color: steelblue;
     padding: 20px;
     text-align:center;
+    border-radius:20%;
 }
 a{
     margin: 40px;

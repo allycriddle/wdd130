@@ -1,0 +1,14 @@
+/*Body Styles*/
+body {
+    background-color: grey;
+    margin: 0 auto;
+}
+.round {
+    width: 20%;
+    background-color: grey;
+    border-radius: 50%;
+    border: 10px solid black;
+}
+.circles {
+    width: 100%
+}
