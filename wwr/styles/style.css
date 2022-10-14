@@ -40,7 +40,6 @@ h4 {
 h2 {
     margin:0;
 }
-}
 #hero-msg h1, #hero-msg h4 {
     color:black;
     text-align: center;
@@ -115,7 +114,7 @@ footer .social img {
     width:100%;
 }
 #logo_link {
-    padding-top: px;
+    padding-top: 5px;
 }
 .rivers-card, .camping-card, .rapids-card {
    margin: 200px 0; 
