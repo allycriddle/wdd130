@@ -7,7 +7,7 @@
 }
 body {
     background-color: white;
-    font-family:Mulish;
+    font-family:Mulish, Arial, sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
@@ -29,13 +29,13 @@ nav a:hover {
 }
 .home-title {
     color: black;
-    font-family: Mulish;
+    font-family: Mulish, Arial, sans-serif;
     font-size: 2em;
     margin: 10px;
 }
 h4 {
     color: black;
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, sans-serif;
 }
 h2 {
     margin:0;
@@ -43,7 +43,7 @@ h2 {
 #hero-msg h1, #hero-msg h4 {
     color:black;
     text-align: center;
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, sans-serif;
 }
 .button-box {
     text-align: center;
@@ -74,7 +74,7 @@ main section img {
 .msg h2 {
     background-color: #E0E6B3;
     color: black;
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, sans-serif;
 }
 msg p {
     color: black;
@@ -97,7 +97,7 @@ footer a:hover {
 }
 footer p {
     font-size: 1.2em;
-    font-family: Merriweather;
+    font-family: Merriweather, Georgia, sans-serif;
 }
 footer p a:hover {
     text-decoration: underline;
