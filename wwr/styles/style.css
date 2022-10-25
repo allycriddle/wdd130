@@ -85,7 +85,7 @@ msg p {
 footer {
     background-color: #faedcd;
     color: black;
-    padding: 25px;
+    padding: 25px 50px;
 }
 footer a {
     text-decoration: none;
