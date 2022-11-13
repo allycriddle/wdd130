@@ -224,7 +224,6 @@ footer .social img {
     }
 }
 /* FAQ PAGE BEGINS*/
-/* testing */
 .test-grid {
     grid-template-columns: repeat(3, 1fr);
 }
