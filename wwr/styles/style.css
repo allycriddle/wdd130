@@ -257,3 +257,9 @@ footer .social img {
     margin: 50px;
     text-decoration: underline;
 }
+.title h1 {
+    text-align: center;
+    margin: 50px;
+    text-decoration: underline;
+    color:#d4a373;
+}
