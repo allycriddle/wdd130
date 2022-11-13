@@ -223,3 +223,38 @@ footer .social img {
         margin-top: 25px;
     }
 }
+/* FAQ PAGE BEGINS*/
+/* testing */
+.test-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+.kids {
+    grid-column: 1/2;
+    margin: 50px;
+    text-align: left;
+}
+.kids h2 {
+    text-align: left;
+    margin: 50px;
+    text-decoration: underline;
+}
+.supplies {
+    grid-column: 1/2;
+    margin: 50px;
+    text-align: right;
+}
+.supplies h2 {
+    text-align: right;
+    margin: 50px;
+    text-decoration: underline;
+}
+.benefits {
+    grid-column: 1/2;
+    margin: 50px;
+    text-align: left;
+}
+.benefits h2 {
+    text-align: left;
+    margin: 50px;
+    text-decoration: underline;
+}
