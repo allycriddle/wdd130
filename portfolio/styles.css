@@ -5,13 +5,13 @@
 }
 body {
     background-color: white;
-    font-family:Mulish, Arial, sans-serif;
+    font-family:Merriweather, Arial, sans-serif;
     font-size: 22px;
     padding: 0;
     margin: 0;
 }
 header{
-    background-color: #723d46;
+    background-color: #ffe1a8;
     display: grid;
     grid-template-columns: 150px auto;
 }
@@ -20,22 +20,22 @@ nav {
     justify-content: space-around;
 }
 nav a {
-    color: white;
+    color: #353a1c;
     text-decoration: none;
     text-align: center;
     padding: 35px;
 }
 nav a:hover {
-    background-color: #ffe1a8;
-    color: white;
+    background-color: white;
+    color: #353a1c;
 }
 .home-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
 }
 .title {
-    color: white;
+    color: #353a1c;
     font-family: Mulish, Arial, sans-serif;
     font-size: 2em;
     margin: 10px;
@@ -44,37 +44,40 @@ nav a:hover {
 }
 #ally {
     grid-column: 1/4;
-    grid-row:1/4;
+    grid-row:1/3;
     margin-left: 50px;
     margin-top: 50px;
+    height: 500px;
+    padding-bottom: 30px;
 }
 #title2 {
     grid-column: 2/5;
     grid-row: 1/2;
     font-size: 28px;
-    margin: 200px 20px 0 175px;
+    margin: 100px 20px 0 20px;
     
 }
 .para1 {
     grid-column: 2/5;
     grid-row: 2/3;
     text-align: left;
-    margin: 0 20px 0 175px;
+    margin: -50px 20px 0 20px;
 }
 /*trbl*/
 .continue {
     grid-column: 1/5;
-    grid-row: 4/5;
-    color: #e26d5c;
+    grid-row: 3/4;
+    color: white;
+    background-color: #353a1c;
     text-decoration: none;
     text-align:center;
     justify-content: center;
     align-items: center;
     font-size: 24pt;
-    padding-top: 150px;
+    padding-top: 125px;
 }
 .continue:hover {
-    background-color: #353a1c;
+    background-color: #e26d5c;
     color: white;
 }
 #logo {
@@ -87,7 +90,6 @@ footer {
     background-color: #723d46;
     color: white;
     padding: 25px 50px;
-    margin-top: 200px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -111,6 +113,90 @@ footer .social img {
     padding-top: 15px;
     margin-top: 200px;
 }
+/* page 2 begins*/
+.main2 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.para2 {
+    grid-column: 1/4;
+    grid-row: 1/2;
+    font-size: 18px;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+.psimg1 {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    grid-column: 1/2;
+    grid-row: 3/4;
+    margin-left: 15px;
+}
+.psimg2 {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    grid-column: 2/3;
+    grid-row: 3/4;
+}
+.psimg3 {
+    width: 100%;
+    height: auto;
+    max-width: 450px;
+    grid-column: 3/4;
+    grid-row: 3/4;
+}
+.idimg1 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    grid-column: 1/2;
+    grid-row: 5/6;
+}
+.idimg2 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    grid-column: 2/3;
+    grid-row: 5/6;
+}
+.idimg3 {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    grid-column: 3/4;
+    grid-row: 5/6;
+}
+.ilimg {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    grid-column: 2/3;
+    grid-row:7/8;
+}
+#photoshop {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    padding: 20px;
+    text-decoration: underline;
+    color: #353a1c;
+}
+#indesign {
+    grid-column: 1/3;
+    grid-row: 4/5;
+    padding: 20px;
+    text-decoration: underline;
+    color: #353a1c;
+}
+#illustrator {
+    grid-column: 1/3;
+    grid-row: 6/7;
+    padding: 20px;
+    text-decoration: underline;
+    color: #353a1c;
+}
+/*page 3 begins*/
 #ally2 {
     height: 800px;
     display:grid;
