@@ -4,24 +4,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact Us</title>
+    <title>Designs</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div id="content">
-     <header>
+    <header>
         <a id="logo_link" href="index.html">
-        <img src="images/logo.jpg" alt="ally criddle designs logo"> </a>
-            <nav>
-                <a href="home.html">Home</a>
-                <a href="design.html">Designs</a>
-                <a href="contact.html">Contact Us</a>
-            </nav>
-        <h1 id="title">Ally Criddle Designs</h1>
+        <img id="logo" src="images/logo.jpg" alt="ally criddle designs logo"> </a>
+        <nav>
+            <a href="home.html">Home</a>
+            <a href="design.html">Designs</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+        <h1 class="title">Ally Criddle Creative Designs</h1>
     </header>
+<body>
+    <div id="content">
 <main class="contact">
-    <h2 id="msg">For questions, comments, and concerns, please reach out via the form below.</h2>
+   
     <img id="ally2" src="images/ally2.jpg" alt="photo of ally criddle">
+    <p id="msg2">
+        Thank you so much for your interest in Ally Criddle Designs! Ally is currently open for marketing internships in the Idaho Falls, Boise, and Salt Lake Metropolitan Areas. 
+    </p>
     <div id="feedback"></div>
     <form action="/my-handling-form-page" method="post">
         <ul>
@@ -53,7 +57,7 @@
         // stop the form from doing the default action.
         e.preventDefault();
         // set the contents of our feedback element to a message letting the user know the form was submitted successfully. Notice that we pull the name that was entered in the form to personalize the message!
-        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. We will get back with you as soon as possible!';
+        feedbackElement.innerHTML = 'Hello '+ formElement.user_name.value +'! Thank you for your message. Ally will get back with you as soon as possible!';
         // make the feedback element visible.
         feedbackElement.style.display = "block";
         // add a class to move everything down so our message doesn't cover it.
@@ -67,13 +71,13 @@
 <p><a href="site-plan.html">Site Plan</a></p>
 <p><a href="contact.html">Contact Us</a></p>
 <div class="social">
-    <a href="https://facebook.com" target="_blank">
+    <a href="https://facebook.com/allybahdally" target="_blank">
         <img src="images/facebook.png" alt="fb icon">
     </a>
-    <a href="https://twitter.com" target="_blank">
+    <a href="https://twitter.com/allybahdally" target="_blank">
         <img src="images/twitter.png" alt="twitter icon">
     </a>
-    <a href="https://instagram.com" target="_blank">
+    <a href="https://instagram.com/allybahdally" target="_blank">
         <img src="images/instagram.png" alt="ig icon">
     </a>
 </div>
